@@ -1,0 +1,51 @@
+{
+    "Hero": {
+        "Title": "Want modern web-site?",
+        "Description": "We can turn your ideas into reality!"
+    },
+    "Menu": {
+        "Title": "Menu",
+        "Home": "Home",
+        "About": "About",
+        "Portfolio": "Portfolio",
+        "Services": "Services",
+        "Contacts": "Contacts",
+        "Footer": "Copyights"
+    },
+    "Themes": {
+        "Title": "Select a theme",
+        "Label": "Themes",
+        "Dark": "Dark",
+        "Light": "Light",
+        "System": "System"
+    },
+    "Languages": {
+        "Title": "Languages"
+    },
+    "Intro": {
+        "Why": "Why?",
+        "Header1": "Why you need a modern web-site?",
+        "Text1": "Modern web-site - is a showcase of your bussiness on internet.",
+        "Text2": "Grow your sales and brand awareness.",
+        "Text3": "Attract new customers and hold old ones.",
+        "Text4": "Obtain competitive advantage.",
+        "Header2": "What will a website do for your business?",
+        "Text5": "Sales growth: The site will help increase sales by attracting new customers and increasing the loyalty of existing ones.",
+        "Text6": "Image improvement: A modern website creates a positive image of the company.",
+        "Text7": "Process automation: The site can automate many business processes, such as receiving orders, processing payments.",
+        "Text8": "Analytics: Using the site, you can track the effectiveness of marketing campaigns and make informed decisions.",
+        "Marquee1": "Sales Analytics Marketing Growth Success",
+        "Marquee2": "Process Automation Image Optimization"
+    },
+    "About": {
+        "Header": "About us",
+        "Title1": "Successfull commercial projects",
+        "Description1": "We have been working on various projects. Starting from basic landing page ending with complex e-commerce solutions.",
+        "Title2": "Years of commercial experience",
+        "Description2": "We have been working in the field of web development for more than 1 year. We are a developing web-studio.",
+        "Title3": "Techonologies we are using",
+        "Description3": "We are using most advanced techonologies as React.js, Next.js. To speed up the development process.",
+        "Title4": "Best UI/UX solutions",
+        "Description4": "We are using the latest UI/UX solutions to create a beautiful and user-friendly interface."
+    }
+}

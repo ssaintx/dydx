@@ -1,0 +1,51 @@
+{
+    "Hero": {
+        "Title": "Siz zamonaviy web-sayt hohlaysizmi?",
+        "Description": "Biz sizning g'oyalaringizni haqiqatga aylantirishimiz mumkun!"
+    },
+    "Menu": {
+        "Title": "Menyu",
+        "Home": "Bosh sahifa",
+        "About": "Biz haqimizda",
+        "Portfolio": "Portfolio",
+        "Services": "Xizmatlar",
+        "Contacts": "Kontaktlar",
+        "Footer": "Mualliflik huquqlari"
+    },
+    "Themes": {
+        "Title": "Mavzu tanglang",
+        "Label": "Mavzular",
+        "Dark": "Tungi",
+        "Light": "Yoriq",
+        "System": "Sistemalik"
+    },
+    "Languages": {
+        "Title": "Tillar"
+    },
+    "Intro": {
+        "Why": "Nima uchun?",
+        "Header1": "Nima uchun sizga zamonaviy veb-sayt kerak?",
+        "Text1": "Zamonaviy veb-sayt — bu sizning biznessingizni vitrinasi.",
+        "Text2": "Sotuvlardi va brendni taniqligini oshirin.",
+        "Text3": "Yangi mijozlarni jalb qiling va eski mijozlarni saqlang.",
+        "Text4": "Raqobat ustunligiga ega bo'ling",
+        "Header2": "Sizning biznesingiz uchun veb-sayt nima qiladi?",
+        "Text5": "Savdoning o'sishi: Sayt yangi mijozlarni jalb qilish va mavjudlarning sodiqligini oshirish orqali savdoni oshirishga yordam beradi.",
+        "Text6": "Tasvirni yaxshilash: Zamonaviy veb-sayt kompaniyaning ijobiy imidjini yaratadi.",
+        "Text7": "Jarayonlarni avtomatlashtirish: Sayt buyurtmalarni qabul qilish, to'lovlarni qayta ishlash kabi ko'plab biznes jarayonlarini avtomatlashtirishi mumkin.",
+        "Text8": "Analytics: Saytdan foydalanib, siz marketing kampaniyalarining samaradorligini kuzatishingiz va ongli qarorlar qabul qilishingiz mumkin.",
+        "Marquee1": "Sotuv Analitica Marketing O'sish Muvaffaqiyat",
+        "Marquee2": "Jarayonni avtomatlashtirish tasvirni optimallashtirish"
+    },
+    "About": {
+        "Header": "Biz haqimizda",
+        "Title1": "Muvaffaqiyatli tijorat loyihalari",
+        "Description1": "Biz turli loyihalar ustida ishladik. Asosiy ochilish sahifasidan boshlab murakkab elektron tijorat yechimlari bilan yakunlanadi.",
+        "Title2": "Ko'p yillik tijorat tajribasi",
+        "Description2": "Biz 1 yildan ortiq vaqt davomida veb-ishlab chiqish sohasida ishlaymiz. Biz rivojlanayotgan veb-studiyamiz.",
+        "Title3": "Biz foydalanadigan texnologiyalar",
+        "Description3": "Biz React.js, Next.js kabi eng ilg‘or texnologiyalardan foydalanmoqdamiz. Rivojlanish jarayonini tezlashtirish uchun.",
+        "Title4": "Eng yaxshi UI/UX yechimlari",
+        "Description4": "Biz chiroyli va qulay interfeys yaratish uchun eng yangi UI/UX yechimlaridan foydalanmoqdamiz."
+    }
+}
