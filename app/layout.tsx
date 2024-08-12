@@ -43,7 +43,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
+    <html lang={locale} suppressHydrationWarning>
       <body className={font.className}>
         <NextIntlClientProvider messages={messages}>
           <Providers>

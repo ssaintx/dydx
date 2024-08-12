@@ -1,10 +1,15 @@
 "use client"
 
+import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
+import { nextJs } from "@/public";
 import { BentoGrid, BentoGridItem } from "./ui/bento-grid";
 import { VelocityScroll } from "./magicui/scroll-based-velocity";
 
+import Image from "next/image";
 import NumberTicker from "./magicui/number-ticker";
+import AnimatedGradientText from "./magicui/animated-gradient-text";
+import { SoundWave } from "@/public/assets/SoundWave";
 
 export const About = () => {
     const t = useTranslations("About");
@@ -36,7 +41,26 @@ export const About = () => {
             id: 3,
             title: t("Title3"),
             description: t("Description3"),
-            header: <div></div>,
+            header:
+                <div className="flex-center flex-col w-full h-full">
+                    <AnimatedGradientText>
+                        <span
+                            className={cn(
+                                `inline animate-gradient bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text text-transparent`,
+                            )}
+                        >
+                            Next.js
+                        </span>
+                    </AnimatedGradientText>
+                    <Image
+                        src={nextJs}
+                        alt="nextJs"
+                        width={100}
+                        height={100}
+                        className="mt-4"
+
+                    />
+                </div>,
             className: "md:col-span-1",
             icon: "",
         },
@@ -44,7 +68,13 @@ export const About = () => {
             id: 4,
             title: t("Title4"),
             description: t("Description4"),
-            header: <div></div>,
+            header:
+                <div className="flex-center flex-col w-full h-full just">
+                    <h1 className={cn(
+                        `inline animate-gradient bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text text-transparent text-4xl`,
+                    )}>UI SOUND</h1>
+                    <SoundWave />
+                </div>,
             className: "md:col-span-2",
             icon: "",
         },
