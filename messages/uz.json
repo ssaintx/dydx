@@ -1,0 +1,12 @@
+{
+    "Navbar": {
+        "About": "Biz haqimizda",
+        "Services": "Xizmatlar",
+        "Portfolio": "Portfolio",
+        "Career": "Karyera",
+        "Blog": "Blog"
+    },
+    "Functions": {
+        "Language": "English"
+    }
+}

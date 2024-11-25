@@ -1,0 +1,12 @@
+{
+    "Navbar": {
+        "About": "О нас",
+        "Services": "Сервисы",
+        "Portfolio": "Портфолио",
+        "Career": "Карьера",
+        "Blog": "Блог"
+    },
+    "Functions": {
+        "Language": "English"
+    }
+}

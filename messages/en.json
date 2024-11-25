@@ -1,0 +1,12 @@
+{
+    "Navbar": {
+        "About": "About us",
+        "Services": "Services",
+        "Portfolio": "Portfolio",
+        "Career": "Career",
+        "Blog": "Blog"
+    },
+    "Functions": {
+        "Language": "English"
+    }
+}
