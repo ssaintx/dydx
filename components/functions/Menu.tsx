@@ -29,7 +29,7 @@ export const Menu = () => {
                 <ul className="flex flex-col items-center justify-center gap-2 h-full pb-12">
                     {items.map((item) => (
                         <li key={item.href}>
-                            <Link href={item.href} className="text-neutral-400 hover:text-neutral-50 duration-500 ease">
+                            <Link href={item.href} className="text-neutral-400 hover:text-neutral-50 duration-500 ease-in-out">
                                 {item.title}
                             </Link>
                         </li>

@@ -3,9 +3,17 @@
 import { useTransition } from "react";
 import { useTranslations } from "next-intl";
 import { Locale } from "@/localization/config";
-import { GlobeIcon } from "@radix-ui/react-icons";
 import { setUserLocale } from "@/localization/locale";
-import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectValue } from "../ui/select";
+
+import {
+    Select,
+    SelectContent,
+    SelectGroup,
+    SelectItem,
+    SelectTrigger,
+    SelectValue
+} from "../ui/select";
+import { GlobeIcon } from "@radix-ui/react-icons";
 
 interface LanguageSwitcherSelectProps {
     defaultValue: string;

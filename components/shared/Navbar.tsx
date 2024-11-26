@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 import { Menu } from "../functions/Menu";
 import { navbarItems } from "@/constants";
@@ -12,11 +13,11 @@ export const Navbar = () => {
             <div className="flex p-2 glassmorphism border border-neutral-800 rounded-md xm:hidden">
                 <Menu />
             </div>
-            <h1 className="font-bold text-3xl">Logo</h1>
+            <Image src="/images/logo.svg" alt="logo" width={72} height={72} className="invert select-none" />
             <ul className="hidden flex-row items-center justify-center gap-8 xm:flex">
                 {items.map((item) => (
                     <li key={item.href}>
-                        <Link href={item.href} className="text-neutral-400 hover:text-neutral-50 duration-500 ease">
+                        <Link href={item.href} className="text-neutral-400 hover:text-neutral-50 duration-500 ease-in-out">
                             {item.title}
                         </Link>
                     </li>
