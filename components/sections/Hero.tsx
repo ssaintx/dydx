@@ -1,6 +1,5 @@
-import Particles from "../ui/particles";
-
 import { Button } from "../ui/button";
+import { Graph } from "../shared/Graph";
 
 export const Hero = () => {
     return (
@@ -8,6 +7,7 @@ export const Hero = () => {
             id="hero"
             className="flex flex-col justify-center items-center h-screen"
         >
+
             {/* HERO TEXT */}
             <div className="flex flex-col gap-2">
                 <h1 className="text-3xl md:text-5xl xm:text-7xl font-bold text-center bg-gradient-to-b from-neutral-50 to-neutral-800 bg-clip-text text-transparent">We offer solutions</h1>
@@ -20,15 +20,11 @@ export const Hero = () => {
                 <Button className="button-transparent">Leave request</Button>
             </div>
 
-            {/* BACKGROUND */}
-            <Particles
-                className="absolute inset-0"
-                quantity={50}
-                ease={50}
-                color="#ffffff"
-                refresh
-            />
+            {/* BACKGROUND GRAPH */}
+            <Graph />
 
+            {/* DESCRIPTIVE BLOCK */}
+            
         </section>
     );
 };
