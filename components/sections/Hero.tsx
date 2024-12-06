@@ -1,7 +1,9 @@
-import { Button } from "../ui/button";
-import { Graph } from "../shared/Graph";
+import dynamic from "next/dynamic";
 
 export const Hero = () => {
+    const Button = dynamic(() => import("../ui/button").then((mod) => mod.Button), { ssr: false });
+    const Graph = dynamic(() => import("../ui/magic/Graph"), { ssr: false });
+
     return (
         <section
             id="hero"
@@ -22,9 +24,6 @@ export const Hero = () => {
 
             {/* BACKGROUND GRAPH */}
             <Graph />
-
-            {/* DESCRIPTIVE BLOCK */}
-            
         </section>
     );
 };

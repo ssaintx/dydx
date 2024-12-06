@@ -100,9 +100,4 @@
   .glassmorphism {
     @apply !bg-neutral-800/50 !backdrop-filter !backdrop-blur-xl;
   }
-
-  .text-stroke {
-    -webkit-text-stroke: 1px rgb(163 163 163);
-    -webkit-text-fill-color: transparent;
-  }
 }

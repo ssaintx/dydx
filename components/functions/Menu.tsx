@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 import {
     Sheet,
@@ -8,18 +9,15 @@ import {
     SheetTitle,
     SheetTrigger,
 } from "@/components/ui/sheet";
-import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 
 import { Year } from "./Year";
 import { navbarItems } from "@/constants";
 
 export const Menu = () => {
-    const items = navbarItems();
-
     return (
         <Sheet>
             <SheetTrigger>
-                <HamburgerMenuIcon />
+                <Image src="/icons/menu.svg" alt="menu" width={24} height={24} className="select-none invert" />
             </SheetTrigger>
             <SheetContent side="left" className="glassmorphism border-neutral-800">
                 <SheetHeader>
@@ -27,7 +25,7 @@ export const Menu = () => {
                 </SheetHeader>
 
                 <ul className="flex flex-col items-center justify-center gap-2 h-full pb-12">
-                    {items.map((item) => (
+                    {navbarItems().map((item) => (
                         <li key={item.href}>
                             <Link href={item.href} className="text-neutral-400 hover:text-neutral-50 duration-500 ease-in-out">
                                 {item.title}
